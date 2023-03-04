@@ -1,8 +1,8 @@
-// * información para la conexion con la base de datos
+//  This is the initial configuration of database 
 const { Sequelize } = require('sequelize');
 
 const db = new Sequelize({
-  database: "sequelize",
+  database: "todo_db",
   port: 5432,
   host: "localhost",
   username: "postgres",
